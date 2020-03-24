@@ -1,0 +1,54 @@
+/* Space out content a bit */
+body {
+    background-color: dimgray;
+  }
+    
+  .main-heading
+  {
+    color: deepskyblue;
+    background-color: black;
+    font-family: monospace;
+    border-radius: 10px;
+    padding: 8px 0 8px 0;
+  }
+  
+  .container-narrow > hr {
+    margin: 30px 0;
+  }
+  
+  /* Main marketing message and sign up button */
+  .jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .bodyDiv{
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+      border-bottom: 0;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .slidecontainer{
+      display: none;
+    }
+  
+  }
+  
+  .slidecontainer{
+    float: left;
+    width: 30%;
+  }
+  
+  
+  .canvasDiv{
+    display: flow-root;
+    text-align: center;
+  }
